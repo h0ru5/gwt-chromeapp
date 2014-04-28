@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='angulargwt'>
+
+    <inherits name="elemental.Elemental"/>
+    <inherits name='com.google.gwt.query.Query'/>
+    
+    <!-- Specify the paths for translatable code                    -->
+    <source path='client'/>
+	<public path="public" />
+    
+    <define-linker name="csp" class="com.github.h0ru5.gwt.chromeapp.CspLinker" />  
+    <add-linker name="csp" />
+</module>
